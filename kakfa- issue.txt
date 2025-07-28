@@ -1,0 +1,46 @@
+[tibw10p2@xspl50p924b log]$ free -g
+              total        used        free      shared  buff/cache   available
+Mem:             62          56           0           0           5           5
+Swap:           127          22         105
+[tibw10p2@xspl50p924b log]$
+
+
+[tibw10p2@xspl50p926t log]$ free -g
+              total        used        free      shared  buff/cache   available
+Mem:             62          53           0           0           8           8
+Swap:           127          25         102
+[tibw10p2@xspl50p926t log]$
+
+
+/apps/tibco/BW10P2/bw/6.4/domains/Platformp/appnodes/PLATFORM-CORE_TRANSLATE-CORE_TRANSLATE-AS01-P/PLATFORM-CORE_TRANSLATE-CORE_TRANSLATE-AS01-AN01-P
+
+
+2023-11-03 14:45:40.824 ERROR [bwEngThread:In-Memory Process Worker-1] com.tibco.bw.core - TIBCO-BW-CORE-500050: The BW process [MC-core_translate.MCI.StartTranslate.actions.main] instance faulted, JobId [bw0a102b4kk3], ProcessInstanceId [bw0a102b4kk7], ParentProcessInstanceId [bw0a102b4kk3], Module [bw.mc-core_translate:1.1.0.20200304123959], Application [bw.mc-core_translate.application:1.1].
+   <CausedBy> TIBCO-BW-CORE-500054: Activity [End] XSLT transformation error.
+   <CausedBy> com.tibco.pvm.dataexch.xml.util.exceptions.PmxException: PVM-XML-106027: Transformation failed for XSLT input '<?xml version="1.0" encoding="UTF-8"?>
+Caused by: org.genxdm.xpath.v20.err.ConcreteErrException: [FORG0001] Invalid value for cast/constructor.
+        at org.genxdm.processor.xpath.v20.functions.schema.ConstructorFunction.constructB(ConstructorFunction.java:58)
+        at org.genxdm.processor.xpath.v20.functions.schema.ConstructorFunction.atom(ConstructorFunction.java:37)
+        at org.genxdm.processor.xpath.v20.widget.AbstractAtomFunction.atomSet(AbstractAtomFunction.java:40)
+        at org.genxdm.processor.xpath.v20.widget.AbstractAtomFunction.evaluate(AbstractAtomFunction.java:99)
+        at com.tibco.genxdm.processor.xslt.exprimpl.TxSimpleContentHelper.constructSimpleContent(TxSimpleContentHelper.java:77)
+        at com.tibco.genxdm.processor.xslt.exprimpl.TxValueOfExpr.stream(TxValueOfExpr.java:29)
+        at com.tibco.genxdm.processor.xslt.exprimpl.TxLiteralResultElementExpr.stream(TxLiteralResultElementExpr.java:93)
+        at com.tibco.genxdm.processor.xslt.exprimpl.XslContentExpr.stream(XslContentExpr.java:36)
+        at com.tibco.genxdm.processor.xslt.exprimpl.TxLiteralResultElementExpr.stream(TxLiteralResultElementExpr.java:93)
+        at com.tibco.genxdm.processor.xslt.exprimpl.XslContentExpr.stream(XslContentExpr.java:36)
+Caused by: org.genxdm.exceptions.AtomCastException: source={http://www.w3.org/2001/XMLSchema}string('xs:string('')'), target='{http://www.w3.org/2001/XMLSchema}dateTime', errorCode='{http://www.w3.org/2005/xqt-errors/}FORG0001'
+        at com.tibco.genxdm.bridge.xinode.atomic.XsStringBridge.castAs(XsStringBridge.java:256)
+        at com.tibco.genxdm.bridge.xinode.atomic.XiAtomBridge.castAs(XiAtomBridge.java:1139)
+        at com.tibco.genxdm.bridge.xinode.atomic.XiAtomBridge.castAs(XiAtomBridge.java:1)
+        at org.genxdm.processor.xpath.v20.shared.casting.CastingManager.castAs(CastingManager.java:337)
+        at org.genxdm.processor.xpath.v20.shared.casting.CastingManager.castAs(CastingManager.java:27)
+        at org.genxdm.processor.xpath.v20.functions.schema.ConstructorFunction.constructB(ConstructorFunction.java:53)
+        ... 49 more
+Caused by: Invalid value for datatype xs:dateTime: "xdt:untypedAtomic('')". Cause: length is zero
+        at com.tibco.xml.data.primitive.values.XsDateTime.compile(XsDateTime.java:184)
+        at com.tibco.genxdm.bridge.xinode.atomic.XsStringBridge.castAs(XsStringBridge.java:160)
+        ... 54 more
+Caused by: java.lang.Exception: length is zero
+
+
