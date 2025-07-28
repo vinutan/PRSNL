@@ -1,0 +1,55 @@
+What is Zookeeper in Kafka?
+One of the basic Kafka interview questions is about Zookeeper. It is a high performance and open source complete coordination service used for distributed applications adapted by Kafka. It lets Kafka manage sources properly.
+
+What does follower and leader in Kafka mean?
+Partitions are created in Kafka based on consumer groups and offset. One server in the partition serves as the leader, and one or more servers act as a follower. The leader assigns itself tasks that read and write partition requests. Followers follow the leader and replicate what is being told.
+
+Name various components of Kafka.
+The main components are:
+
+Producer – produces messages and can communicate to a specific topic
+Topic: a bunch of messages that come under the same topic
+Consumer: One who consumes the published data and subscribes to different topics
+Brokers: act as a channel between consumers and producers.
+
+
+Why is Kafka so popular?
+Kafka acts as the central nervous system that makes streaming data available to applications. It builds real-time data pipelines responsible for data processing and transferring between different systems that need to use it.
+
+
+create bridge source=queue:bridgequeue target=topic:bridge
+topic selector=”illinois”
+
+create route name url=URL zone_name=zone_name zone_type=1hop|mhop properties)
+
+URL specifies the other server by its URL—including protocol and por
+zone_name specifies that the route belongs to the routing zone with this name. When absent, the default value is default_mhop_zo
+When omitted, the default value is mhop
+
+Max Jobs:
+Max Jobs specifies the number of process instances that are kept in memmory. Once this limit is reached newly created process instances (subject to flow limit) are paged out to disk.0 specifies no limit and is the default.
+
+Flow Limit:
+Flow Limit specifies the maximum number of running process instances that are spawned before the process starter is suspended ie it enters a FLOW_CONTROLLED state and does not accept new events. This can be used to control the number of process instances running simultaneously and when the protocol generating the event can store the event till it is received, like email servers, JMS, RV etc. 0 specifies no limit and is the default.
+
+ACTIVATION LIMIT:
+Activation limit flag specifies that once a process instance is loaded in the memory; It must reside in memory till the time its execution is completed.  This flag is useful if we wish to process the incoming requests in sequential manner or if you want to enforce limited concurrent execution of process instances.
+
+
+(webservice)Certificate issue from vendor side TLS version updated and disabled cpher suites.
+ - cipher suites paramter modified Properties added
+ - Java version install and updated the Tra files(UpgradeManager)
+ - 
+
+Kafka cluster down( 3 servers ) zookeper(internal communication server)
+
+Openshift - applications goes stop(crashloop)
+
+TEA slowness- user remaining inactive for not logging out correctly.
+
+
+Application were FT server running, RV communication not working properly upon checking both server were on  different network
+- RVRD 
+
+FHM VAL- AC failure in datacentre due to battery issue hardware failure and vendor replaced the battery. 
+

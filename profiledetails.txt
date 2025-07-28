@@ -1,0 +1,79 @@
+Professional exp :
+
+Dynamic Technical Associate with extensive experience at Cognizant Technology Solutions, excelling in performance monitoring and complex problem-solving. Proven in coordination and production support, leading successful TIBCO implementations. Adept at fostering team collaboration while ensuring timely project delivery, enhancing system efficiency, and driving operational excellence.
+Hardworking Senior Associate enthusiastic about take on exciting new challenges within [Industry]. Dynamic communicator with disciplined approach.
+
+Job Descr - Sanofi - Onsite
+
+· Excellent understanding of project issues, ability to work independently or as a part of a team and
+Involved in RFB(Request for Bid) projects for Tibco infra related activities.
+. Handling the meetings with Business line team for translating business requirements into functional specifications.
+· Have managed the Lead role as coordinating with multiple systems as middleware point of contact.
+· Involved in requirement gathering and in design phase meetings.
+· Performance tuning, troubleshooting, Software installation, upgrade and post installation configuration, prepare monitoring steps, User management in TCI.
+· Involved in monitoring and configuring the queues/Topics & creation/Deletion and assigning the roles in TCM,TIBCO . Deploy Manage and Maintain Cloud infrastructure on AWS and Azure.
+. Implement best practices for scalability, performance and security.
+. Monitor cloud systems and trouble shooting issues.
+. Work with Networking, security groups and IAM roles.
+· Systems maintenance and L3 Support in 24*7 model and providing weekend on call support.
+· Involved in creating of TIBCO Hawk rules and EMS administration activities like creating/deleting queues, topics,user monitoring destinations and store files and compact those.
+· Managed in resolving tickets as per Incident, Change, Problem management processes.
+· Handling CAB meeting to get the CRQ approval and implementing by co originating with multiple teams.
+· Involved and managing multi weekend activities like OS patching, NAS migration, Certificate Migration ,SOX etc as a part of activity.
+· Involved in Building/Recreating Appspace and Appnode depending upon the requirement in TEA.
+· Managing in raising a case and working with vendor(TIBCO) support for issues.
+· Involved in creating & monitoring Kafka clusters and services like Broker, Zookeeper.
+· Install and configure all required SAP database servers and application servers.
+· Manage SAP users, authorizations, and profiles
+· Requirements gathering, Analysis, Architectural design, capacity management migration plan, Fine tuning the systems for performance and maintenance.
+. Install,configure and maintain windows server operating systems as a part of windows server administrator
+. Monitoring server health, performance and resource utilization using task manager, performance monitor for windows server.
+. Monitoring server health, performance and resource utilization for Unix/Linux server
+. Manage and Maintain the Active Directory(AD) including th user accounts, groups, organizational units and group policies.
+. Impliment and manage AD replication and ensure it is functioning properly as a part of windows administer.
+. Daignose and resolve server related issues for both Unix/Linux & windows servers.
+. Work with other IT teams to resolve issues related to network connectivity or the application performance.
+
+
+Offshore -
+
+· Translate business and technical requirements into integration implementation.
+· Provide technical guidance on requirements and design elements during planning phase with project teams
+· Involved in Installing and Configuring of, TIBCO suite of products like, TIBCO Active-Matrix Business Works 6.x, Business works 5.x & Tibco admin/TEA setup .
+· Experience in deployment and monitoring of TIBCO projects and troubleshooting errors.
+· Managing CAB meeting to get the CRQ approval and implementing by co ordinating with multiple technical teams.
+· As a TIBCO admin, involved in supporting and leading the weekend activities like, NAS migration, certificate Migration, firmware upgrade, OS patching, SOX, DG migration, DR etc.
+· knowledge on configuring persistence modes, TEA and BW agents.
+· Experienced in TIBCO Software installation and upgrade of TIBCO products in Linux/UNIX/Windows servers.
+· Hands on experience in setup TIBCO in completely new environment (staging) and deploy the Applications.
+· Experience in TIBCO EMS/JMS – installing the EMS, creating Queues, Topics, User's and Roles & configuring various EMS options.
+· Experience in deployment and monitoring of TIBCO projects and troubleshooting errors.
+· Good Experience using Apache Kafka, integrated with Tibco and communicated with multiple systems.
+· Basic knowledge on other tools like njams, TIBCO MDM, SAP PI, Jenkins,GIT,AWS admin, Rabbit MQ, Apache Kafka, Portainer, Nexus, ELK(Elasticsearch,Logstash,Kibana).
+
+Accesnture - 
+
+Monitored employee performance to keep projects on task.
+Determined equipment failure root cause and implemented solutions.
+Led cross-functional team for successful completion of multiple large-scale projects, ensuring timely delivery within budget constraints.
+Controlled project costs by approving expenditures.
+· Requirements gathering, Analysis, Architectural design, capacity management migration plan, Fine tuning the systems for performance and maintenance.
+Supporting the technologies for TIBCO BW 5.X,6.X BWCE ADMIN, HAWK,TEA TIBCO BW,SAP PI/PO, SAP CPI, TIBCO MDM, Windows server admin.
+
+Mphasis--
+
+· Requirement Gathering and providing the infra support.
+· Systems maintenance and Support in 24*7 model and providing weekend on call support.
+· Worked on Hawk Rule bases monitoring the EAI interfaces , Alerts.
+· Building/Installation TIBCO environment with latest products.
+· Involved in resolving the infrastructure issues in production and non-production environments.
+· Involved in resolving the tickets as per Incident, Change, Problem management processes.
+· Administration of TIBCO BW, HAWK,EMS, Administrator.
+· Checking the health of servers, Deployed instance on daily in Tibco Admin.
+· Monitoring and performing health check of components.
+· Validate Applications by using Splunk logs and ELK.
+· Production support for Application deployment and Validate & Support
+· Coordinate with Client and other teams for further technical enhancements.
+· Involved in performing backups and restoring the components.
+· Involved in performing the application/service restart during the activities like DR migration, NAS migration, OS Patching etc.
+
